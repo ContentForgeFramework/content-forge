@@ -25,7 +25,6 @@ theme:
                 icon: material/brightness-4
                 name: Switch to light mode
 nav:
-    -   Home: index.md
     -   Overview:
             -   Software Overview: overview/software-overview.md
             -   Software Architecture: overview/software-architecture.md
@@ -105,12 +104,12 @@ markdown_extensions:
 extra:
     social:
         -   icon: fontawesome/brands/github
-            link: https://github.com/ContentForgeFramework/contentforge
-            name: contentforge on GitHub
+            link: https://github.com/ContentForgeFramework/content-forge
+            name: content-forge on GitHub
 
 # 添加版权信息
 copyright: Copyright &copy; 2025 Content Forge
 
 # 添加仓库链接
-repo_url: https://github.com/ContentForgeFramework/contentforge
+repo_url: https://github.com/ContentForgeFramework/content-forge
 repo_name: contentforge
