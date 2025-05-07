@@ -80,6 +80,9 @@ pymdown-extensions = "^10.14.3"
 mkdocs-autorefs = "^1.4.1"
 griffe = "^1.7.2"
 
+
+[tool.poetry.dependencies]
+poetry-core = ">=2.0.0,<3.0.0"
 [tool.black]
 line-length = 120
 target-version = ["py312"]
