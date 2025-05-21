@@ -1,13 +1,25 @@
 [project]
 name = "content-forge"
 version = "0.1.0"
-description = ""
+description = "A cross-DCC SDK empowering professional pipeline development across major digital content tools. Deliver production-ready plugins and toolsets for Maya, Blender, Unreal, Unity, Substance, and Houdini through a unified API abstraction, robust version tolerance, and CI-integrated automation workflows."
+
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Content Forge",email = "ContentForgeTeam@outlook.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
+license = { text = "Apache-2.0" }
+keywords = ["dcc", "plugin-development", "content-tools"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
 dependencies = [
+    "poetry-core (>=2.0.0,<3.0.0)"
 ]
 
 [tool.poetry]
