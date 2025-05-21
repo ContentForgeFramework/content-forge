@@ -19,12 +19,22 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "poetry-core (>=2.0.0,<3.0.0)"
+    "poetry-core (>=2.0.0,<3.0.0)",
+    "click (>=8.2.1,<9.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "content_forge", from = "src"}]
 
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.2.0"
+black = "^25.1.0"
+pyyaml = "^6.0.2"
+tomli = "^2.2.1"
+python-dotenv = "^1.1.0"
+mypy = "^1.15.0"
+types-click = "^7.1.8"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
